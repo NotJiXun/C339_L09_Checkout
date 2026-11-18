@@ -1,0 +1,12 @@
+name: Student Info
+
+on: push
+
+jobs:
+  student-info:
+    - name: Display Student name
+      run: echo "Display Student - Swee Kwang"
+    - name: Display Module
+      run: echo "Display module - c339"
+    - name: Display Message
+      run: echo "My Github Actions workflows is running automatically"
